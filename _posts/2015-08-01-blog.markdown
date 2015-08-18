@@ -10,8 +10,20 @@ e.g.
 <img src="https://41.media.tumblr.com/7025de8e917a7e701f7682e05144923d/tumblr_inline_ns55weng9I1tuqir7_540.jpg" alt="image" data-orig-width="1244" data-orig-height="933" class="post-feature-image">
 {% endhighlight %}
 
+### Lead Text
+The lead text is displayed on the listings page and not on the post page.
+  
+To set the lead text, insert the text inside a `div` with the class `post-lead`.
+  
+e.g.
+{% highlight html %}
+<div class="post-lead">
+  <p>This is the lead text.</p>
+</div>
+{% endhighlight %}
+
 ### Intro Text
-The intro text is displayed on the listings page and not on the post page.
+The intro text is displayed in a different type face and should be used at the top of a post.
   
 To set the intro text, insert the text inside a `div` with the class `post-intro`.
   
