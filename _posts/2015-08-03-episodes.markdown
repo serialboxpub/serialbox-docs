@@ -1,0 +1,60 @@
+## Platypus
+
+Serials are configured as `Articles` via the [Platypus CMS](https://platypus.29.io/) provided by 29th Street Publishing.
+  
+### Custom Fields
+
+We have setup a number of custom fields that are used in the web and iOS application to display content. This is a list of the different fields and what they do:
+
+#### Article
++ Title: The Episode Title e.g. `Badge, Book and Candle`
++ Slug: Not used
++ Byline: Not used
++ Description: HTML text shown in the Info overlay
++ Pdf URL: URL of the PDF version saved on Cache Fly
++ Mobi URL: URL of the Mobi version saved on Cache Fly
++ Epub URL: URL of the Epub version saved on Cache Fly
++ Cover Image URL: URL of the Cover Image saved on Cache Fly
++ Icon Image URL: Not used
++ Divider Image URL: URL of the image used for the dividers in the episode body saved on Cache Fly
++ Number: The number this episode is in the Serial, starting at 1
++ Display Date: Not used
++ Divider Color: The HEX color reference for the divider line in the episode body e.g. `#36d6b7`
++ Divider ID: Not used
++ Strapline: The lead text shown in the Episode listings
++ Icon ID: Not used
++ Cover ID: Not used
++ Body: HTML text of the episode
+
+### Body Formatting
+
+The body of the episode needs to be valid HTML.
+
+#### Chapter Numbers
+
+Chapter numbers can be inserted using the following HTML:
+
+{% highlight html %}
+<h3 id="1">1</h3>
+{% endhighlight %}
+
+#### Dividers
+
+Episodes can have custom dividers by using the following HTML:
+
+{% highlight html %}
+<hr>
+{% endhighlight %}
+
+Dividers are configured by the following custom fields:
+  
++ Divider Image URL: URL of the image used for the dividers in the episode body saved on Cache Fly
++ Divider Color: The HEX color reference for the divider line in the episode body e.g. `#36d6b7`
+
+#### Paragraphs
+
+Paragraphs should be formatted using the following HTML:
+
+{% highlight html %}
+<p>Sal Brooks would have described herself in a police report as early thirties, female, brown hair, five nine, exhausted, borderline breakdown case, shaking hands, haunted eyes. Then she’d have deleted everything after “nine” and continued with the details of the incident. In this case: Forensic analysis of the museum theft yielded an Astoria address. Arriving on the scene with warrant in hand, Detective Collins and I were fired upon from the window by a white male, late forties. After a brief exchange of fire, Detective Collins forced the door. Behind the door—</p>
+{% endhighlight %}

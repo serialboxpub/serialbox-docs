@@ -1,0 +1,54 @@
+## Platypus
+
+Serials are configured as `Volumes` and `Issues` via the [Platypus CMS](https://platypus.29.io/) provided by 29th Street Publishing.
+  
+### Custom Fields
+
+We have setup a number of custom fields that are used in the web and iOS application to display content. This is a list of the different fields and what they do:
+
+#### Volume
++ Title: Not used
++ Version: Used to trigger the iOS application to update
+
+#### Issue
++ Title: The Serial Title e.g. `Bookburners`
++ Display Date: The date displayed before a Serial is released
++ Teaser: Not used
++ List ID: The ID of the MailChimp list subscribers are added to
++ Cover Image URL: URL of the Cover Image saved on Cache Fly
++ Title Image URL: URL of the Title Image saved on Cache Fly
++ Alt Title Image URL: Not used
++ Total Episodes: Number of Episodes that will eventually be released for this Serial
++ Authors: HTML block with the Authors descriptions
++ Alt Title ID: Not used
++ Tag: The Tumblr tag used to show related blog posts
++ Strapline: Single strapline shown under the Serial title e.g. `Some books have teeth`
++ Intro: Shown on the Serial page before the Episodes
++ Released: A string to determine if the Serial should be available for reading, either `true` or `false`
++ Title Id: Not used
++ Cover Id: Not used
++ Corvers: Not used in either application but 29th Street require an image
+
+### Updating information in the applications
+
+EacCh application caches the content from the 29th Street API so when you update information in the Platypus CMS you must do the following to trigger it to update in the applications:
+
+#### iOS Application
+1. Increment the Version number for the relevant "Volume" for this Serial.
+
+### Web Application
+1. Refresh the Development cache: [dev.serialbox.com/refresh](http://dev.serialbox.com/refresh)
+2. Refresh the Production cache: [www.serialbox.com/refresh](http://www.serialbox.com/refresh)
+
+### Setting the MailChimp List ID
+
+1. Login to MailChimp
+2. Go to `Lists`
+3. Create the list e.g. `Bookburners Subscribers`
+4. Go to `Settings` > `List Name and Defaults`
+5. Copy the List ID e.g. `cc25915783`
+6. Login to Platypus
+7. Go to Issues
+8. Go into the relevant Serial Issue e.g. `Bookburners`
+9. Paste the List ID into the List ID field
+10. Click `Save`
