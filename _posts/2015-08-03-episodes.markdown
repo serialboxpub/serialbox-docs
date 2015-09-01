@@ -25,6 +25,7 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Icon ID: Not used
 + Cover ID: Not used
 + Body: HTML text of the episode
++ Shortened URL: The short URL used in share text. Ensure it's a full URL e.g. `http://bit.ly/1Jym6jE`
 
 ### Body Formatting
 
