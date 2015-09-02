@@ -18,7 +18,7 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Icon Image URL: Not used
 + Divider Image URL: URL of the image used for the dividers in the episode body saved on Cache Fly
 + Number: The number this episode is in the Serial, starting at 1
-+ Display Date: Not used
++ Display Date: Used to show the coming soon date for the next unreleased episode. It must be in the format: `YYYY-MM-DD`, e.g. `2015-10-20`
 + Divider Color: The HEX color reference for the divider line in the episode body e.g. `#36d6b7`
 + Divider ID: Not used
 + Strapline: The lead text shown in the Episode listings
