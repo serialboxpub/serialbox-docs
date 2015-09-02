@@ -28,6 +28,8 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Title Id: Not used
 + Cover Id: Not used
 + Corvers: Not used in either application but 29th Street require an image
++ Shortened URL: The short URL used in share text. Ensure it's a full URL e.g. `http://bit.ly/1Jym6jE`
++ Learn More URL: The URL used in for 'Learn More' on at the end of an Episode and on the buy modal. Ensure it's a full URL e.g. `http://serialbox.com`
 
 ### Updating information in the applications
 
