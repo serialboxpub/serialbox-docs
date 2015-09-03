@@ -18,12 +18,14 @@ The following Share URLs are used:
 + `{SERIAL_HASHTAG}`: Will generate and output a hashtag based on the title e.g. `#Bookburners`
 
 ### Episode variables
+
 + `{EPISODE_NUMBER}`: Will output the number e.g. `2`
 + `{EPISODE_TITLE}`: Will out the title e.g. `Badge, Book, and Candle`
 + `{EPISODE_STRAPLINE}`: Will output the strapline e.g. `Detective Sally Brooks investigates an unusual robbery, and discovers that magic is real—and hungry!`
 
 ### Exmaple
 Custom field text: `{SERIAL_STRAPLINE}. {SERIAL_HASHTAG}. Get caught up:`
+ 
 Output: `Some Books Have Teeth. #Bookburners. Get caught up:`
 
 ### Updating Share Text
