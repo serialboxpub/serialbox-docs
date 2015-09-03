@@ -42,6 +42,8 @@ EacCh application caches the content from the 29th Street API so when you update
 1. Refresh the Development cache: [dev.serialbox.com/refresh](http://dev.serialbox.com/refresh)
 2. Refresh the Production cache: [www.serialbox.com/refresh](http://www.serialbox.com/refresh)
 
+When you go the links above you will be asked for a login, these are in the "Serial Box project wiki"
+
 ### Setting the MailChimp List ID
 
 1. Login to MailChimp
