@@ -25,3 +25,7 @@ The following Share URLs are used:
 ### Exmaple
 Custom field text: `{SERIAL_STRAPLINE}. {SERIAL_HASHTAG}. Get caught up:`
 Output: `Some Books Have Teeth. #Bookburners. Get caught up:`
+
+### Updating Share Text
+
+Whenever you change the share text fields, you need to change the Version number of the relevant Volume. For example, if you change the share text for an episode of Bookburners, you need to update the Bookburners Volume `version` by 1 and Re-Publish it.
