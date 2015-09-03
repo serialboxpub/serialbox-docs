@@ -1,3 +1,5 @@
+# link to live docs - [here] (http://xxix.github.io/serialbox-docs/)
+
 # XXIX docs builder
 Template for client docs - [Demo](http://xxix.github.io/xxix-docs/)
 
