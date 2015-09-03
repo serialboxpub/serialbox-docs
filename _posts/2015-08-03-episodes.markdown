@@ -26,6 +26,11 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Cover ID: Not used
 + Body: HTML text of the episode
 + Shortened URL: The short URL used in share text. Ensure it's a full URL e.g. `http://bit.ly/1Jym6jE`
++ End Share Text: The text shared at the end of an episode
++ End Title Text: The title above the share button at the end of an Episode
++ End Button Text: The share button text at the end of an Episode
++ Reading Share Text: The text shared during an Episode
++ Serial Share Text: The text shared on the Serial page
 
 ### Body Formatting
 

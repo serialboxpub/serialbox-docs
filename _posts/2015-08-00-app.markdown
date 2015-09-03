@@ -1,0 +1,11 @@
+## Application Wide Settings
+
+In order to enable application wide settings, a Serial Box Volume was created and the ID for this Volume is hard-coded in both applications.
+
+### Custom Fields
+
+We have setup a number of custom fields that are only used for the Serial Box Volume.
+
+#### Volume
++ Settings Share Text: The text shared from the settings screen
++ Settings Share URL: The URL shared from the settings screen
