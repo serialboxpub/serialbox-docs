@@ -56,3 +56,27 @@ When you go the links above you will be asked for a login, these are in the "Ser
 8. Go into the relevant Serial Issue e.g. `Bookburners`
 9. Paste the List ID into the List ID field
 10. Click `Save`
+
+### Authors Text
+
+Authors need to be formatted in a particular way to ensure they're styled consistently across Serials.
+
+{% highlight html %}
+<div>
+  <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+  <h3>Author Name</h3>
+  <p>Bio/Descrpiton</p>
+</div>
+
+<div>
+  <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+  <h3>Author Name</h3>
+  <p>Bio/Description</p>
+</div>
+
+<div>
+  <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+  <h3>Author Name</h3>
+  <p>Bio/Description</p>
+</div>
+{% endhighlight %}
