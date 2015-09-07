@@ -9,7 +9,7 @@ We have setup a number of custom fields that are used in the web and iOS applica
 #### Article
 + Title: The Episode Title e.g. `Badge, Book and Candle`
 + Slug: Not used
-+ Byline: Not used
++ Byline: The name of the main author shown on the Episode cover e.g. `Max Gladstone`.
 + Description: HTML text shown in the Info overlay
 + Pdf URL: URL of the PDF version saved on Cache Fly
 + Mobi URL: URL of the Mobi version saved on Cache Fly

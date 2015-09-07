@@ -9,3 +9,15 @@ We have setup a number of custom fields that are only used for the Serial Box Vo
 #### Volume
 + Settings Share Text: The text shared from the settings screen
 + Settings Share URL: The URL shared from the settings screen
+
+### Updating information in the applications
+
+Each application caches the content from the 29th Street API so when you update information in the Platypus CMS you must do the following to trigger it to update in the applications:
+
+#### iOS Application
+1. Increment the Version number for the relevant "Volume" for this Serial.
+
+### Web Application
+1. Refresh the Development cache: [dev.serialbox.com/refresh](http://dev.serialbox.com/refresh)
+2. Refresh the Production cache: [www.serialbox.com/refresh](http://www.serialbox.com/refresh)
+
