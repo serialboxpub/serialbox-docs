@@ -2,6 +2,16 @@
 
 Serials are configured as `Volumes` and `Issues` via the [Platypus CMS](https://platypus.29.io/) provided by 29th Street Publishing.
   
+
+### Previewing Content
+You can preview a serial without releasing it by visiting the preview URL: `https://dev.serialbox.com/serials/SERIAL_ID/preview`
+ 
+The Episode ID can be found by going to the Article page in Platypus and copying the ID in the URL which comes after `/issue/`, e.g. The ID for the URL `https://platypus.29.io/#/issue/555d1163ada6e26d95b9e785` would be `555d1163ada6e26d95b9e785`.
+ 
+This will bypass the cache for this single page load.
+ 
+Please note, the episode number will be wrong, but you can check the formatting, share links etc.
+
 ### Custom Fields
 
 We have setup a number of custom fields that are used in the web and iOS application to display content. This is a list of the different fields and what they do:
