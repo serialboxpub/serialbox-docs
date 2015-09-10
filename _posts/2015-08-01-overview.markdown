@@ -1,5 +1,3 @@
-# Overview
-
 ## Structure
 
 Serial Box has been built on top of the 29t Street API. Unfortunately the structure of 29th Street (Volumes, Issues and Articles) does not exactly match the structure of Serial Box (Serials and Episodes) so we’ve had to map between the two.
