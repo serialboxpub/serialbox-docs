@@ -74,3 +74,25 @@ Paragraphs should be formatted using the following HTML:
 {% highlight html %}
 <p>Sal Brooks would have described herself in a police report as early thirties, female, brown hair, five nine, exhausted, borderline breakdown case, shaking hands, haunted eyes. Then she’d have deleted everything after “nine” and continued with the details of the incident. In this case: Forensic analysis of the museum theft yielded an Astoria address. Arriving on the scene with warrant in hand, Detective Collins and I were fired upon from the window by a white male, late forties. After a brief exchange of fire, Detective Collins forced the door. Behind the door—</p>
 {% endhighlight %}
+
+### Description Formatting
+
+The description needs to be valid HTML.
+
+#### Examples
+
+{% highlight html %}
+<h1>Previously, on Bookburners...</h1>
+{% endhighlight %}
+
+{% highlight html %}
+<p>Sal Brooks was an NYPD detective who found herself in over her head when her brother Perry was possessed by a powerful demon called the Hand.  With the aid of Team Three (of the Societas Librium Occultorum, a Vatican-backed covert magic-hunting organization), Sal managed to defeat the Hand, leaving Perry in a coma. Sal joined the Team, hoping to find a cure.  Now, she travels to Vatican City to meet the rest of the Society.</p>
+{% endhighlight %}
+
+{% highlight html %}
+<h2>Character Refreshers</h2>
+{% endhighlight %}
+
+{% highlight html %}
+<h3>Sal Brooks</h3>
+{% endhighlight %}
