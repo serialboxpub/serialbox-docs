@@ -1,11 +1,13 @@
-Cache Fly is used to host all media and assets used in both the web and iOS applications.
- 
-The assets are generally referenced in the Platypus CMS as the full URL.
- 
-Login details for Cache Fly can be found in the Project Wiki.
+Cache Fly is used to host all media and assets used in both the web and iOS applications. The assets are generally referenced in the Platypus CMS as the full URL.
  
 ## FTP Client
 Cachefly uses an FTP server to facilitate uploading files. We recommend you [download Cyberduck](http://cyberduck.en.softonic.com/mac/download) to use as an FTP client.
+
+## Login
+Create a new ftp connection in your FTP client:
+server: ftp.cachefly.com
+user: see project wiki
+pass: see project wiki
 
 ## URL Structure
 Cachefly sets up everything in your FTP folder at the URL `http://serialbox.cachefly.net/`, therefore any folders or files you create will be accessible after the base URL.
