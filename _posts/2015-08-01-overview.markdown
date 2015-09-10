@@ -1,0 +1,46 @@
+# Overview
+
+## Structure
+
+Serial Box has been built on top of the 29t Street API. Unfortunately the structure of 29th Street (Volumes, Issues and Articles) does not exactly match the structure of Serial Box (Serials and Episodes) so we’ve had to map between the two.
+
+### Volumes
+
+Volumes are the top level object. Volumes are essentially a collection of Serial Seasons.
+
+### Issues
+
+Issues belong to a Volume. Seasons of a Serial are setup as an Issue.
+
+### Articles
+Articles belong to an Issue. Episodes of a Serial are setup as an Article.
+
+## How to …
+
+## New Serial
+1. Create a new Volume with the Serial name
+2. Create a new Issue with the Serial name
+3. Add the Issue to the Volume
+
+The Serial will not be visible until the Volume has been published.
+
+The Volume is just a container for Serials, no fields are used when displaying Serials in either application.
+
+## Coming Soon Serial
+A Serial that is part of a published Volume but is not released, will be shown as Coming Soon. 
+
+## Release Serial
+A Serial that is part of a published Volume and is released will be made available in both applications.
+
+## Publishing a Serial
+Check with 29th Street if this triggers a Push Notification.
+
+## Coming Soon Episode
+An Episode in Draft that is part of a released Issue with “Show coming soon” checked will be shown as an upcoming episode.
+
+The date in “Display Date” will be used to show when the episode is going to be released.
+
+## Released Episode
+An Episode that is published will be made available in both applications.
+
+29th Street trigger a Push Notification when an article is published.
