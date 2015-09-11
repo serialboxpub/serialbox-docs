@@ -33,7 +33,7 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Alt Title ID: Not used
 + Tag: The Tumblr tag used to show related blog posts
 + Strapline: Single strapline shown under the Serial title e.g. `Some books have teeth`
-+ Intro: Shown on the Serial page before the Episodes
++ Intro: HTML text shown on the Serial page before the Episodes
 + Released: A string to determine if the Serial should be available for reading, either `true` or `false`
 + Title Id: Not used
 + Cover Id: Not used
@@ -89,4 +89,14 @@ Authors need to be formatted in a particular way to ensure they're styled consis
   <h3>Author Name</h3>
   <p>Bio/Description</p>
 </div>
+{% endhighlight %}
+
+### Intro Text
+
+Intro text can be styled with the following HTML:
+
+{% highlight html %}
+<p>Paragraph of text</p>
+<hr>
+<p><small>Smaller text for credits</small></p>
 {% endhighlight %}
