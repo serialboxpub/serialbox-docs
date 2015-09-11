@@ -10,9 +10,9 @@ user: see project wiki
 pass: see project wiki
 
 ## URL Structure
-Cachefly sets up everything in your FTP folder at the URL `http://serialbox.cachefly.net/`, therefore any folders or files you create will be accessible after the base URL.
+Cachefly sets up everything in your FTP folder at the URL `https://serialbox.cachefly.net/`, therefore any folders or files you create will be accessible after the base URL.
  
-For example, if you create a `bookburners` folder and inside that put a file called `cover.jpg`, this will be available at http://serialbox.cachefly.net/bookburners/cover.jpg`.
+For example, if you create a `bookburners` folder and inside that put a file called `cover.jpg`, this will be available at `https://serialbox.cachefly.net/bookburners/cover.jpg`.
 
 ## Example: PDF Upload
 1. Name the PDF file something like `bookburners1.pdf`
@@ -23,5 +23,9 @@ For example, if you create a `bookburners` folder and inside that put a file cal
 6. Open or create a folder called `ebooks`
 7. Drag and drop the PDF file int the `ebooks` folder
 8. Wait for the upload to complete
-9. Test the URL e.g. `http://serialbox.cachefly.net/bookburners/ebooks/bookburners1.pdf`
+9. Test the URL e.g. `https://serialbox.cachefly.net/bookburners/ebooks/bookburners1.pdf`
 10. Copy and paste the URL into the relevant field in Platypus
+
+## SSL
+
+Ensure you use the secure URL `https://` not `http://`.
