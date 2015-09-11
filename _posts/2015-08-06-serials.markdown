@@ -73,19 +73,28 @@ Authors need to be formatted in a particular way to ensure they're styled consis
 
 {% highlight html %}
 <div>
-  <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+  <div class="img">
+    <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+    Photo credit: Photographer Name
+  </div>
   <h3>Author Name</h3>
   <p>Bio/Descrpiton</p>
 </div>
 
 <div>
-  <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+  <div class="img">
+    <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+    Photo credit: Photographer Name
+  </div>
   <h3>Author Name</h3>
   <p>Bio/Description</p>
 </div>
 
 <div>
-  <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+  <div class="img">
+    <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+    Photo credit: Photographer Name
+  </div>
   <h3>Author Name</h3>
   <p>Bio/Description</p>
 </div>
