@@ -6,7 +6,7 @@
   @include text(xxs, $lap: xs);
   background: $xxix-black;
   color: white;
-  line-height: 1.5
+  line-height: 1.5;
   padding: 25px 40px;
   overflow-x: scroll;
   @include margin($bottom: l);
@@ -14,8 +14,9 @@
     @include margin($bottom: xl);
   }
 
-  pre
-    line-height: 1.5
+  pre {
+    line-height: 1.5;
+  }
 
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
