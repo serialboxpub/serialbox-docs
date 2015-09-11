@@ -1,0 +1,47 @@
+## CMS
+
+The web application has been setup with [Comfortable Mexican Sofa](https://github.com/comfy/comfortable-mexican-sofa).
+ 
+The CMS will create pages off the root of the website, therefore it is your responsibility to ensure you don't set a URL structure that is already being used in the application. To help ensure this, here is a list of URLs we're currently using:
+ 
++ `/serials`
++ `/episodes`
++ `/account`
++ `/about`
++ `/how-it-works`
++ `/authors`
++ `/help`
++ `/blog`
++ `/app`
++ `/signup`
++ `/logout`
+ 
+If you choose a URL structure that is already being used, the existing page will be shown and your created page will not be shown.
+
+### Creating a page
+ 
+1. Go to the CMS admin go to: [serialbox.com/admin](https://www.serialbox.com/admin)
+2. Click on `Pages`
+3. On the 'Root' line click `Add Child Page`
+4. Enter a label — This is only displayed in the admin
+5. Confirm you're happy with the `slug`. This will be the URL. e.g. a slug of `sign-up-page` will generate the URL `https://www.serialbox.com/sign-up-page`
+6. Select a layout
+7. Enter the custom fields
+8. Click `Preview` to view the page without publishing
+9. Click `Create Page` to publish the page
+
+### Sign Up Layout
+
+A Sign up layout has been created to allow easy creation of landing pages for marketing campaigns to drive sign ups to a given MailChimp mailing list.
+ 
+The following fields have been made available:
+ 
++ List: This is the MailChimp List ID found on the Settings > List Name and Defaults page within MailChimp
++ Page title: This is the title of the page, shown in the browser tab
++ Title: This is the title shown below the Serial Box logo
++ Text: This is the text displayed underneath the above title
++ Form title: This is the title displayed directly above the sign up form
++ Success title: This is the title of the message shown when the form is submitted successfully
++ Success text: This is the text below the above title shown when the form is submitted successfully
+ 
+You can use `&lt;br&gt;` and `&lt;a&gt;` tags within the fields, but do not use `&lt;p&gt;` or `&lt;h&gt;` tags.
