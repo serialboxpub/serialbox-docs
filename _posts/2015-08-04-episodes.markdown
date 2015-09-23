@@ -8,40 +8,54 @@ This will bypass the cache for this single page load.
 
 In-app purchases must be created within iTunes Connect for every episode that is going to be sold. These must be created ahead of time as Apple has a review process for all in-app purchases.
  
-Using `Fair Weather`, Episdoe 3 of Bookburners with an SKU `com.serialboxpublishing.serialbox.article.3` as an example, the following need to be created:
+Using `Fair Weather` Episode 3 of Bookburners with an SKU `com.serialboxpublishing.serialbox.article.3` as an example, the following need to be created:
  
+You can create an in-app purchase by doing the following:
+ 
+1. Login to [iTunes Connect](https://itunesconnect.apple.com/)
+2. Go to `My Apps`
+3. Click `Serial Box Publishing`
+4. Click `In-App Purchases`
+5. Click Create New
+6. Under `Non-Consumable` click `Select`
+7. Enter the details, including adding at least one language
+8. Click `Save`
+9. Return to the `In-App Purchases` screen
+10. Select all in-app purchases which have not been approved
+11. Click `Submit for review`
+
 #### Text in-app purchase
-Reference Name: `Fair Weather`
-Product ID: `com.serialboxpublishing.serialbox.article.3`
-Type: `Non-Consumable`
-Price Tier: `Tier 2`
-Language: `English`
-Language Display Name: `Fair Weather`
-Language Description: `Text version of Fair Weather, Bookburners Episode 3`
-Review Notes: `Text in-app purchase for a new episode. Screenshot is example for existing released episode, will be the same for this new episode.`
-Screenshot: [Image](https://s3.mzstatic.com/us/r30/Purple69/v4/db/23/05/db2305f5-13bb-3189-cd79-6deb08dab7b9/mzl.erbrjstj.png?downloadKey=1443558581_919f9191511acbe7b59b09a45df056b9)
++ Reference Name: `Fair Weather`
++ Product ID: `com.serialboxpublishing.serialbox.article.3`
++ Type: `Non-Consumable`
++ Price Tier: `Tier 2`
++ Language: `English`
++ Language Display Name: `Fair Weather`
++ Language Description: `Text version of Fair Weather, Bookburners Episode 3`
++ Review Notes: `Text in-app purchase for a new episode. Screenshot is example for existing released episode, will be the same for this new episode.`
++ Screenshot: [Image](https://s3.mzstatic.com/us/r30/Purple69/v4/db/23/05/db2305f5-13bb-3189-cd79-6deb08dab7b9/mzl.erbrjstj.png?downloadKey=1443558581_919f9191511acbe7b59b09a45df056b9)
  
 #### Audio in-app purchase
-Reference Name: `Fair Weather Audio`
-Product ID: `com.serialboxpublishing.serialbox.article.3.audio`
-Type: `Non-Consumable`
-Price Tier: `Tier 2`
-Language: `English`
-Language Display Name: `Fair Weather Audio`
-Language Description: `Audio version of Fair Weather, Bookburners Episode 3`
-Review Notes: `Audio in-app purchase for a new episode. Screenshot is example for existing released episode, will be the same for this new episode.`
-Screenshot: [Image](https://s4.mzstatic.com/us/r30/Purple69/v4/dc/e0/ef/dce0ef66-119e-00cc-6aa0-107930011a4a/mzl.yiaowcil.png?downloadKey=1443569710_dc5af6c5974896ab5b532c7cc599a3a3)
++ Reference Name: `Fair Weather Audio`
++ Product ID: `com.serialboxpublishing.serialbox.article.3.audio`
++ Type: `Non-Consumable`
++ Price Tier: `Tier 2`
++ Language: `English`
++ Language Display Name: `Fair Weather Audio`
++ Language Description: `Audio version of Fair Weather, Bookburners Episode 3`
++ Review Notes: `Audio in-app purchase for a new episode. Screenshot is example for existing released episode, will be the same for this new episode.`
++ Screenshot: [Image](https://s4.mzstatic.com/us/r30/Purple69/v4/dc/e0/ef/dce0ef66-119e-00cc-6aa0-107930011a4a/mzl.yiaowcil.png?downloadKey=1443569710_dc5af6c5974896ab5b532c7cc599a3a3)
  
 #### Text and Audio in-app purchase
-Reference Name: `Fair Weather Audio`
-Product ID: `com.serialboxpublishing.serialbox.article.3.bundle`
-Type: `Non-Consumable`
-Price Tier: `Tier 3`
-Language: `English`
-Language Display Name: `Fair Weather Text and Audio`
-Language Description: `Text and Audio version of Fair Weather, Bookburners Episode 3`
-Review Notes: `Text and Audio in-app purchase for a new episode. Screenshot is example for existing released episode, will be the same for this new episode.`
-Screenshot: [Image](https://s4.mzstatic.com/us/r30/Purple3/v4/93/3c/cb/933ccb43-bc31-48f1-c94f-15293e34dba5/mzl.diyikama.png?downloadKey=1443569829_828daf5242df32db688a838ec6b64faa)
++ Reference Name: `Fair Weather Audio`
++ Product ID: `com.serialboxpublishing.serialbox.article.3.bundle`
++ Type: `Non-Consumable`
++ Price Tier: `Tier 3`
++ Language: `English`
++ Language Display Name: `Fair Weather Text and Audio`
++ Language Description: `Text and Audio version of Fair Weather, Bookburners Episode 3`
++ Review Notes: `Text and Audio in-app purchase for a new episode. Screenshot is example for existing released episode, will be the same for this new episode.`
++ Screenshot: [Image](https://s4.mzstatic.com/us/r30/Purple3/v4/93/3c/cb/933ccb43-bc31-48f1-c94f-15293e34dba5/mzl.diyikama.png?downloadKey=1443569829_828daf5242df32db688a838ec6b64faa)
  
 
 ### Previewing Content
