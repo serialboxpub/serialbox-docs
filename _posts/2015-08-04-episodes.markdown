@@ -47,7 +47,7 @@ You can create an in-app purchase by doing the following:
 + Screenshot: [Image](https://s4.mzstatic.com/us/r30/Purple69/v4/dc/e0/ef/dce0ef66-119e-00cc-6aa0-107930011a4a/mzl.yiaowcil.png?downloadKey=1443569710_dc5af6c5974896ab5b532c7cc599a3a3)
  
 #### Text and Audio in-app purchase
-+ Reference Name: `Fair Weather Audio`
++ Reference Name: `Fair Weather Text and Audio`
 + Product ID: `com.serialboxpublishing.serialbox.article.3.bundle`
 + Type: `Non-Consumable`
 + Price Tier: `Tier 3`
