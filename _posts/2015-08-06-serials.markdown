@@ -100,6 +100,8 @@ Authors need to be formatted in a particular way to ensure they're styled consis
 </div>
 {% endhighlight %}
 
+#### Authors Page
+
 The Authors are also shown on the [Authors page](http://www.serialbox.com/authors). Some authors contribute to multiple Serials, to ensure they don't show up multiple times on the Authors page you can add the class `authors-page-hide` to the surrounding div. e.g:
 {% highlight html %}
 <div class="authors-page-hide">
