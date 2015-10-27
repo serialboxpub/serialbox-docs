@@ -100,6 +100,19 @@ Authors need to be formatted in a particular way to ensure they're styled consis
 </div>
 {% endhighlight %}
 
+The Authors are also shown on the [Authors page](http://www.serialbox.com/authors). Some authors contribute to multiple Serials, to ensure they don't show up multiple times on the Authors page you can add the class `authors-page-hide` to the surrounding div. e.g:
+{% highlight html %}
+<div class="authors-page-hide">
+  <div class="img">
+    <img src="http://serialbox.cachefly.net/bookburners/authors/headshot_goldstone.jpg">
+    Photo credit: Photographer Name
+  </div>
+  <h3>Author Name</h3>
+  <p>Bio/Descrpiton</p>
+</div>
+{% endhighlight %}
+
+
 ### Intro Text
 
 Intro text can be styled with the following HTML:
