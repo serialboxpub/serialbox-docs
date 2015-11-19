@@ -4,6 +4,27 @@ Serials are configured as `Articles` via the [Platypus CMS](https://platypus.29.
   
 This will bypass the cache for this single page load.
 
+### Customisable Pricing
+Pricing per episode can be set within Platypus.
+ 
+Default pricing is:
+ 
++ Text only: $1.99 (item price)
++ Audio only: $1.99 (item price)
++ Text & Audio Bundle: $2.99 (bundle price)
+ 
+On the website, we display the item price. If you set the item price to less than the original, the original price is shown with a line through it before the custom price.
+ 
+#### Free Pricing
+In order to make an episode free you need to set the bundle price to 0. When you do this, the following occurs:
+ 
++ The `Buy` button changes to `Get` and the original price is shown with a line through and `Free` below it.
++ If a logged in user clicks the `Get` button, both SKUs (text and audio) are added to their library.
++ If a non logged in user clicks the `Get` button, they are prompted to sign up/in, after signing in both SKUs are added to their library.
++ If a logged in user goes directly to the episode page it is added to their library and they view it straight away.
++ If a non logged in user goes directly to the episode page they are prompted to sign up/in, after signing in both SKUs are added to their library.
+
+
 ### In-app Purchases
 
 In-app purchases must be created within iTunes Connect for every episode that is going to be sold. These must be created ahead of time as Apple has a review process for all in-app purchases.
@@ -57,26 +78,6 @@ You can create an in-app purchase by doing the following:
 + Review Notes: `Text and Audio in-app purchase for a new episode. Screenshot is example for existing released episode, will be the same for this new episode.`
 + Screenshot: [Image](https://s4.mzstatic.com/us/r30/Purple3/v4/93/3c/cb/933ccb43-bc31-48f1-c94f-15293e34dba5/mzl.diyikama.png?downloadKey=1443569829_828daf5242df32db688a838ec6b64faa)
  
-
-#### Customisable Pricing
-Pricing per episode can be set within Platypus.
- 
-Default pricing is:
- 
-+ Text only: $1.99 (item price)
-+ Audio only: $1.99 (item price)
-+ Text & Audio Bundle: $2.99 (bundle price)
- 
-On the website, we display the item price. If you set the item price to less than the original, the original price is shown with a line through it before the custom price.
- 
-#### Free Pricing
-In order to make an episode free you need to set the bundle price to 0. When you do this, the following occurs:
- 
-+ The `Buy` button changes to `Get` and the original price is shown with a line through and `Free` below it.
-+ If a logged in user clicks the `Get` button, both SKUs (text and audio) are added to their library.
-+ If a non logged in user clicks the `Get` button, they are prompted to sign up/in, after signing in both SKUs are added to their library.
-+ If a logged in user goes directly to the episode page it is added to their library and they view it straight away.
-+ If a non logged in user goes directly to the episode page they are prompted to sign up/in, after signing in both SKUs are added to their library.
 
 ### Previewing Content
 You can preview an episode without releasing an episode by visiting the preview URL: `https://dev.serialbox.com/episodes/EPISODE_ID/preview`
