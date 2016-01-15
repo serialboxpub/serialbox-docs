@@ -2,6 +2,18 @@
 
 The web application has been setup with [Comfortable Mexican Sofa](https://github.com/comfy/comfortable-mexican-sofa).
  
+A number of text areas on the site are controlled by `Snippets` which are small pieces of editable text. You can edit a Snippet by going to the Snippets section and clicking the snippet. Please ensure you do not change the identifier as this is what the application looks for to display the text.
+
+### Homepage
+
+The following snippets are available on the homepage:
+ 
++ Homepage Title: Title in the banner shown to logged out users
++ Homepage Sub: Sub text in the banner shown to logged out users
++ Homepage Carousel: A comma separated list of Serial IDs to show in the homepage carousel. e.g. `556fb93cada6e270f8e264d6,555d1163ada6e26d95b9e785` will show Tremontaine then Bookburners.
+
+### Pages
+
 The CMS will create pages off the root of the website, therefore it is your responsibility to ensure you don't set a URL structure that is already being used in the application. To help ensure this, here is a list of URLs we're currently using:
  
 + `/serials`
@@ -18,7 +30,7 @@ The CMS will create pages off the root of the website, therefore it is your resp
  
 If you choose a URL structure that is already being used, the existing page will be shown and your created page will not be shown.
 
-### Creating a page
+#### Creating a page
  
 1. Go to the CMS admin go to: [serialbox.com/admin](https://www.serialbox.com/admin)
 2. Click on `Pages`
@@ -30,7 +42,7 @@ If you choose a URL structure that is already being used, the existing page will
 8. Click `Preview` to view the page without publishing
 9. Click `Create Page` to publish the page
 
-### Sign Up Layout
+#### Sign Up Layout
 
 A Sign up layout has been created to allow easy creation of landing pages for marketing campaigns to drive sign ups to a given MailChimp mailing list.
  
