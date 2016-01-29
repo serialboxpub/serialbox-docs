@@ -71,6 +71,15 @@ When you go the links above you will be asked for a login, these are in the "Ser
 9. Paste the List ID into the List ID field
 10. Click `Save`
 
+### Testimonials Text
+
+Testimonials need to be formatted in a particular way to ensure they're style consistently across Serials.
+
+
+{% highlight html %}
+<div> <blockquote>“Bookburners is sheer enormous fun! More soon please.”­</blockquote><h3>- Naomi Novik</h3><p>author of Uprooted and the Temeraire series</p></div>
+{% endhighlight %}
+
 ### Authors Text
 
 Authors need to be formatted in a particular way to ensure they're styled consistently across Serials.
