@@ -117,6 +117,7 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + End Button Text: The share button text at the end of an Episode
 + Reading Share Text: The text shared during an Episode
 + Serial Share Text: The text shared on the Serial page
++ Header Background Color: Set the background color on the episode page on the web. If blank it will default to the blurred cover.
 
 ### Body Formatting
 

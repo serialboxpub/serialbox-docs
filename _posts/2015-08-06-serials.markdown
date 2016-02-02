@@ -44,6 +44,7 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Cover Wide Image URL: URL of the Wide Cover Image with Title, saved on Cache Fly
 + Next Season: When checked this will show the Next Season Text in the Subscribe dropdown
 + Next Season Text: Shown in the Subscribe dropdown when next season is enabled.
++ Short Title: Used in the navigation bar. Should be no more than 2 words. Test at all browser sizes.
 
 ### Updating information in the applications
 
