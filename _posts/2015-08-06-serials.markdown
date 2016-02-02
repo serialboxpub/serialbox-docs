@@ -1,6 +1,7 @@
 ## Creating Assets
 
 There are a series of assets that each serial needs:
+
 + Serial Cover Landscape Large
 + Serial Cover Landscape Large Sale
 + Serial Cover Landscape Small
