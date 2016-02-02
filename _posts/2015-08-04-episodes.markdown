@@ -1,3 +1,9 @@
+## Creating Assets
+
+Each episode needs a cover and a divider (see below about dividers).
+
+There is a template that gives guidelines for creating these assets. It lives here [assets/templates/serial_assets.psd](https://www.dropbox.com/s/oxlxz1jilrqlmpv/serial_assets.psd?dl=0).
+
 ## Platypus
 
 Serials are configured as `Articles` via the [Platypus CMS](https://platypus.29.io/) provided by 29th Street Publishing.
