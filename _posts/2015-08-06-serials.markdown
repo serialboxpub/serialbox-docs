@@ -1,3 +1,17 @@
+## Creating Assets
+
+There are a series of assets that each serial needs:
++ Serial Cover Landscape Large
++ Serial Cover Landscape Large Sale
++ Serial Cover Landscape Small
++ Serial Cover Landscape Small Sale
++ Serial Cover Portraint Large
++ Serial Cover Portraint Large Sale
++ Chapter Divider
++ Author Headshots
+
+There is a serial template for creating these assets in the dropbox. It lives here [assets/templates/serial_assets.psd](https://www.dropbox.com/s/oxlxz1jilrqlmpv/serial_assets.psd?dl=0). In this file you'll find dimensions for all the assets and you can easily export from here. 
+
 ## Platypus
 
 Serials are configured as `Volumes` and `Issues` via the [Platypus CMS](https://platypus.29.io/) provided by 29th Street Publishing.
