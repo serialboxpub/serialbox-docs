@@ -19,9 +19,7 @@ The CMS will create pages off the root of the website, therefore it is your resp
 + `/serials`
 + `/episodes`
 + `/account`
-+ `/about`
 + `/how-it-works`
-+ `/authors`
 + `/help`
 + `/blog`
 + `/app`
@@ -29,6 +27,16 @@ The CMS will create pages off the root of the website, therefore it is your resp
 + `/logout`
  
 If you choose a URL structure that is already being used, the existing page will be shown and your created page will not be shown.
+
+#### Pages in CMS
+
+At the time of writing, the following pages are controlled via the CMS:
+
++ `/authors`
++ `/about`
++ `/terms`
++ `/terms/web`
++ `/privacy`
 
 #### Creating a page
  

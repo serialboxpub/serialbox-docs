@@ -39,27 +39,37 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Title: The Serial Title e.g. `Bookburners`
 + Display Date: The date displayed before a Serial is released
 + Teaser: Not used
++ Reading Nav Bar Color: HEX value for color to make the reading nav bar in the app.
++ Testimonials: HTML block with the Testimonials
++ Cover Quote Source: Source text for quote shown on cover of Serial
++ Cover Quote: Quote text shown on cover of Serial
++ Short Title: Used in the navigation bar on Serial and Episode page on the web. Should be no more than 2 words. Test at all browser sizes.
++ Next Season Text: Shown in the Subscribe dropdown when next season is enabled.
++ Next Season: When checked this will show the Next Season Text in the Subscribe dropdown
++ Cover Thumb Wide Image URL: URL of the Thumb Wide Cover Image with Title, saved on Cache Fly
++ Cover Wide Image URL: URL of the Wide Cover Image with Title, saved on Cache Fly
++ End button text: Text in button shown at end of an episode
++ End title text: Text shown at the end of an episode
++ End Share Text: Pre-populated share text at end of an episode
++ Serial Share Text: Pre-populated share text on serial screens
++ Reading Share Text: Pre-populated share text on reading screens
++ Learn More URL: The URL used in for 'Learn More' on at the end of an Episode and on the buy modal. Ensure it's a full URL e.g. `http://serialbox.com`
++ Shortened URL: The short URL used in share text. Ensure it's a full URL e.g. `http://bit.ly/1Jym6jE`
 + List ID: The ID of the MailChimp list subscribers are added to
 + Cover Image URL: URL of the Cover Image saved on Cache Fly
 + Title Image URL: URL of the Title Image saved on Cache Fly
-+ Alt Title Image URL: Not used
++ Alt Title Image URL: Deprecated
 + Total Episodes: Number of Episodes that will eventually be released for this Serial
 + Authors: HTML block with the Authors descriptions
-+ Alt Title ID: Not used
-+ Tag: The Tumblr tag used to show related blog posts
++ Authors Line: Single byline shown on serial covers
++ Alt Title ID: Deprecated
 + Strapline: Single strapline shown under the Serial title e.g. `Some books have teeth`
++ Tag: The Wordpress Category used to show related blog posts
 + Intro: HTML text shown on the Serial page before the Episodes
-+ Released: A string to determine if the Serial should be available for reading, either `true` or `false`
-+ Title Id: Not used
-+ Cover Id: Not used
-+ Corvers: Not used in either application but 29th Street require an image
-+ Shortened URL: The short URL used in share text. Ensure it's a full URL e.g. `http://bit.ly/1Jym6jE`
-+ Learn More URL: The URL used in for 'Learn More' on at the end of an Episode and on the buy modal. Ensure it's a full URL e.g. `http://serialbox.com`
-+ Cover Thumb Wide Image URL: URL of the Thumb Wide Cover Image with Title, saved on Cache Fly
-+ Cover Wide Image URL: URL of the Wide Cover Image with Title, saved on Cache Fly
-+ Next Season: When checked this will show the Next Season Text in the Subscribe dropdown
-+ Next Season Text: Shown in the Subscribe dropdown when next season is enabled.
-+ Short Title: Used in the navigation bar. Should be no more than 2 words. Test at all browser sizes.
++ Released: If checked will show in the app
++ Title ID: Deprecated
++ Cover ID: Deprecated
++ Covers: Not used in either application but 29th Street require an image
 
 ### Updating information in the applications
 

@@ -103,12 +103,20 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Slug: Not used
 + Byline: The name of the main author shown on the Episode cover e.g. `Max Gladstone`.
 + Description: HTML text shown in the Info overlay
++ Header Background Color: Set the background color on the episode page on the web. If blank it will default to the blurred cover.
++ Ebook Cover Image URL: Not used
++ Bundle Price: override default bundle price
++ Subscriber Price: override default subscriber price
++ Item Price: Override default item price
++ Shortened URL: The short URL used in share text. Ensure it's a full URL e.g. `http://bit.ly/1Jym6jE`
++ Show coming soon: When checked will have 'Coming Soon' state in the episodes list
 + Pdf URL: URL of the PDF version saved on Cache Fly
 + Mobi URL: URL of the Mobi version saved on Cache Fly
 + Epub URL: URL of the Epub version saved on Cache Fly
 + Cover Image URL: URL of the Cover Image saved on Cache Fly
 + Icon Image URL: Not used
 + Divider Image URL: URL of the image used for the dividers in the episode body saved on Cache Fly
++ Audio: URL for Audio file on Cache Fly
 + Number: The number this episode is in the Serial, starting at 1
 + Display Date: Used to show the coming soon date for the next unreleased episode. It must be in the format: `YYYY-MM-DD`, e.g. `2015-10-20`
 + Divider Color: The HEX color reference for the divider line in the episode body e.g. `#36d6b7`
@@ -117,13 +125,6 @@ We have setup a number of custom fields that are used in the web and iOS applica
 + Icon ID: Not used
 + Cover ID: Not used
 + Body: HTML text of the episode
-+ Shortened URL: The short URL used in share text. Ensure it's a full URL e.g. `http://bit.ly/1Jym6jE`
-+ End Share Text: The text shared at the end of an episode
-+ End Title Text: The title above the share button at the end of an Episode
-+ End Button Text: The share button text at the end of an Episode
-+ Reading Share Text: The text shared during an Episode
-+ Serial Share Text: The text shared on the Serial page
-+ Header Background Color: Set the background color on the episode page on the web. If blank it will default to the blurred cover.
 
 ### Body Formatting
 
