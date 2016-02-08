@@ -4,10 +4,13 @@ There are a series of assets that each serial needs:
 
 + Serial Cover Landscape Large
 + Serial Cover Landscape Large Sale
++ Serial Cover Landscape Coming Soon
 + Serial Cover Landscape Small
 + Serial Cover Landscape Small Sale
-+ Serial Cover Portraint Large
-+ Serial Cover Portraint Large Sale
++ Serial Cover Landscape Coming Soon
++ Serial Cover Portrait Large
++ Serial Cover Portrait Large Sale
++ Serial Cover Portrait Coming Soon
 + Chapter Divider
 + Author Headshots
 
