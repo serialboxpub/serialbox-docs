@@ -86,7 +86,7 @@ You can create an in-app purchase by doing the following:
  
 
 ### Previewing Content
-You can preview an episode without releasing an episode by visiting the preview URL: `https://dev.serialbox.com/episodes/EPISODE_ID/preview`
+You can preview an episode without releasing an episode by visiting the preview URL: `https://preview.serialbox.com/episodes/EPISODE_ID/preview`
  
 The Episode ID can be found by going to the Article page in Platypus and copying the ID in the URL which comes after `/article/`, e.g. The ID for the URL `https://platypus.29.io/#/article/5553e1feada6e220e644e9c0` would be `5553e1feada6e220e644e9c0`.
  
