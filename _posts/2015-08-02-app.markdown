@@ -18,7 +18,6 @@ Each application caches the content from the 29th Street API so when you update 
 1. Increment the Version number for the relevant "Volume" for this Serial.
 
 ### Web Application
-1. Refresh the Development cache: [dev.serialbox.com/refresh](http://dev.serialbox.com/refresh)
-2. Refresh the Preview cache (for previewing changes before they go live): [preview.serialbox.com/refresh](http://preview.serialbox.com/refresh)
+1. Refresh the Preview cache (allows you to preview changes before they go live): [preview.serialbox.com/refresh](http://preview.serialbox.com/refresh)
 3. Refresh the Production cache: [www.serialbox.com/refresh](http://www.serialbox.com/refresh)
 

@@ -1,10 +1,10 @@
 ## Structure
 
-Serial Box has been built on top of the 29t Street API. Unfortunately the structure of 29th Street (Volumes, Issues and Articles) does not exactly match the structure of Serial Box (Serials and Episodes) so we’ve had to map between the two.
+Serial Box has been built on top of the 29th Street API, a Content Management System licensed by Serial Box. Unfortunately the structure of 29th Street (Volumes, Issues and Articles) does not exactly match the structure of Serial Box (Serials and Episodes) so we’ve had to map between the two.
 
 ### Volumes
 
-Volumes are the top level object. Volumes are essentially a collection of Serial Seasons.
+Volumes are the top level object, equivilent to a Serial. Volumes are essentially a collection of Serial Seasons.
 
 ### Issues
 
@@ -24,14 +24,16 @@ The Serial will not be visible until the Volume has been published.
 
 The Volume is just a container for Serials, no fields are used when displaying Serials in either application.
 
-## Coming Soon Serial
-A Serial that is part of a published Volume but is not released, will be shown as Coming Soon. 
 
-## Release Serial
-A Serial that is part of a published Volume and is released will be made available in both applications.
+## Coming Soon or New Episodes Notice on a Serial
+If you check "New Episodes" on a volume, the serial title artwork in the app and website will have "New Episodes" overlaid on top of them. Likewise, if you check "Coming Soon" on a volume, that will be overlaid on the artwork.
 
-## Publishing a Serial
-Check with 29th Street if this triggers a Push Notification.
+If a Volume has only unpublished episodes, it will also default to saying "Coming Soon" on the website. These volumes will not appear at all on the app currently.
+
+## Publishing an Episode
+Publishing an episode makes the episode available on the site and in app and automatically triggers purchases for any customers who are subscribed to the serial and delivers to new episode to their libraries.
+
+An Episode that is part of a published Volume and is released will be made available in both applications.
 
 ## Coming Soon Episode
 An Episode in Draft that is part of a released Issue with “Show coming soon” checked will be shown as an upcoming episode.
@@ -41,4 +43,4 @@ The date in “Display Date” will be used to show when the episode is going to
 ## Released Episode
 An Episode that is published will be made available in both applications.
 
-29th Street trigger a Push Notification when an article is published.
+The 29th Street software can automatically trigger a Push Notification when an article is published. However, currently we use Firebase for this functionality.

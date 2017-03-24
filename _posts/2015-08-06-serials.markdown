@@ -18,13 +18,13 @@ There is a serial template for creating these assets in the dropbox. It lives he
 
 ## Platypus
 
-Serials are configured as `Volumes` and `Issues` via the [Platypus CMS](https://platypus.29.io/) provided by 29th Street Publishing.
+Serials are configured as `Volumes` and `Issues` via the [Platypus CMS](https://platypus.serialbox.com/).
   
 
 ### Previewing Content
-You can preview a serial without releasing it by visiting the preview URL: `https://dev.serialbox.com/serials/SERIAL_ID/preview`
+You can preview a serial without releasing it by visiting the preview URL: `https://preview.serialbox.com/serials/SERIAL_ID/preview`
  
-The Episode ID can be found by going to the Article page in Platypus and copying the ID in the URL which comes after `/issue/`, e.g. The ID for the URL `https://platypus.29.io/#/issue/555d1163ada6e26d95b9e785` would be `555d1163ada6e26d95b9e785`.
+The Episode ID can be found by going to the Article page in Platypus and copying the ID in the URL which comes after `/issue/`, e.g. The ID for the URL `https://platypus.serialbox.com/#/issue/555d1163ada6e26d95b9e785` would be `555d1163ada6e26d95b9e785`.
  
 This will bypass the cache for this single page load.
  
@@ -37,12 +37,16 @@ We have setup a number of custom fields that are used in the web and iOS applica
 #### Volume
 + Title: Not used
 + Version: Used to trigger the iOS application to update
++ Go Watch It Context Id and Go Watch It Campaign: For invisible marketing pixeled used in the Go Watch It campaign
++ New Episodes: Makes the "New Episode" label appear over Serial artwork
++ Coming Soon: Makes the "Coming Soon" label appear over Serial artwork
 
 #### Issue
 + Title: The Serial Title e.g. `Book burners`
 + Display Date: The date displayed before a Serial is released
 + Teaser: Not used
 + Push Notification: Push notification message
++ Featured: Makes the Issue featured on the logged-out homepage of the website
 + Reading Nav Bar Color: HEX value for color to make the reading nav bar in the app.
 + Cover Tall Image URL: URL of the portrait cover image saved on Cache Fly
 + Short Title: Used in the navigation bar on Serial and Episode page on the web. Should be no more than 2 words. Test at all browser sizes.
@@ -78,13 +82,13 @@ We have setup a number of custom fields that are used in the web and iOS applica
 
 ### Updating information in the applications
 
-EacCh application caches the content from the 29th Street API so when you update information in the Platypus CMS you must do the following to trigger it to update in the applications:
+Each application caches the content from the 29th Street API so when you update information in the Platypus CMS you must do the following to trigger it to update in the applications:
 
 #### iOS Application
 1. Increment the Version number for the relevant "Volume" for this Serial.
 
 ### Web Application
-1. Refresh the Development cache: [dev.serialbox.com/refresh](http://dev.serialbox.com/refresh)
+1. Refresh the Preview cache: [preview.serialbox.com/refresh](http://preview.serialbox.com/refresh)
 2. Refresh the Production cache: [www.serialbox.com/refresh](http://www.serialbox.com/refresh)
 
 When you go the links above you will be asked for a login, these are in the "Serial Box project wiki"

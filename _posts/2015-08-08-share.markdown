@@ -8,7 +8,7 @@ The type of share URL used is set to a specific field, but this field can be cha
   
 The following Share URLs are used:
  
- + Serial: `Serial Short URL`
++ Serial: `Serial Short URL`
 + Reading Episode: `Episode Short URL`
 + End of Episode: `Serial Short URL`
 
